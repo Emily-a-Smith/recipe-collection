@@ -1,0 +1,163 @@
+/*** FRAMWORK ***/
+
+body {
+	background: #DAF7F6;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #3B3B3B;
+}
+
+/*** HEADER ***/
+
+header {
+	background: #FFFFFF;
+	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+	padding: 40px 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #F16059;
+}
+
+header img {
+	margin-right: 16px;
+}
+
+/*** MAIN ***/
+
+main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.card {
+  margin: 25px 0;
+  overflow: auto;
+}
+
+
+.image {
+  width: 500px;
+  height: 550px;
+  float: left;
+}
+
+.recipe {
+  width: 500px;
+  height: 550px;
+  padding-left: 20px;
+  float: left;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.recipe h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #F16059;
+}
+
+.time {
+  margin-bottom: 20px;
+  border: 1px solid #3B3B3B;
+  overflow: auto;
+  text-transform: uppercase;
+}
+
+.time div {
+  float: left;
+  padding-left: 6px;
+  width: 33.3333%;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+.time .cook {
+  border-left: 1px solid #3B3B3B;
+  border-right: 1px solid #3B3B3B;
+}
+
+.time img {
+  width: 15px;
+  height: auto;
+  margin-right: 5px;
+	vertical-align: middle;
+}
+
+.time-details {
+  display: inline-block;
+}
+
+.time strong {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.columns {
+  overflow: auto;
+}
+
+.directions {
+  float: left;
+  width: 240px;
+}
+
+.directions ol {
+  padding-left: 15px;
+  line-height: 23px;
+}
+
+.ingredients {
+  width: 205px;
+  margin-right: 20px;
+}
+
+.ingredients {
+  float: left;
+}
+
+.ingredients ul {
+  padding-left: 15px;
+  line-height: 23px;
+  list-style-type: square;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #F16059;
+  padding: 8px 8px;
+  border-top: 1px solid #3B3B3B;
+  border-bottom: 1px solid #3B3B3B;
+
+}
+/*** RECIPE 1 ***/
+
+#cookies .image {
+  background-image: url("../img/cookies.png");
+  background-size: cover;
+}
+
+/*** RECIPE 2 ***/
+
+#pesto .image {
+  background-image: url("../img/nut-free-pesto.png");
+  background-size: cover;
+}
+
+/*** RECIPE 3 ***/
+
+#salad .image {
+  background-image: url("../img/watermelon-salad.png");
+  background-size: cover;
+}
